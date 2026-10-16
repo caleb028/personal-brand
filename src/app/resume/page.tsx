@@ -91,16 +91,10 @@ export default function ResumePage() {
 
   const education = [
     {
-      degree: "B.Sc. in Computer Science / Software Engineering",
-      institution: "University of Nairobi / Accredited Kenyan Institution",
-      period: "2014 — 2018",
-      details: "Specialized in Distributed Systems, Relational Database Theory, Algorithms, and Software Architecture.",
-    },
-    {
-      degree: "Professional Cloud & Full-Stack Certification",
-      institution: "Advanced Web Technologies & Systems Architecture",
-      period: "Continuing Professional Development",
-      details: "Certified in modern TypeScript paradigms, Next.js production deployments, and secure financial API integrations.",
+      degree: "Bachelors of Business Information Technology",
+      institution: "Accredited Kenyan Institution",
+      period: "Undergraduate Degree",
+      details: "Comprehensive grounding in Business Systems Analysis, Database Management, Enterprise Software Architecture, and IT Solutions Delivery.",
     },
   ];
 
@@ -227,29 +221,29 @@ export default function ResumePage() {
             </div>
           </div>
 
-          {/* Section: Education & Credentials */}
+          {/* Section: Education & Academic Background */}
           <div>
             <SectionHeader
               kicker="Foundations"
-              title="Education & Certifications"
-              description="Academic grounding and continuous professional development."
+              title="Education & Academic Background"
+              description="Academic grounding and technical qualifications."
               inverted={true}
             />
 
-            <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <StaggerContainer className="grid grid-cols-1 max-w-2xl gap-6">
               {education.map((edu) => (
                 <StaggerItem key={edu.degree}>
-                  <div className="p-6 rounded-xl bg-white/95 backdrop-blur-md border border-[#DDE3E8] h-full hover:border-[#19B6A4]/50 hover:shadow-xl transition-all">
-                    <div className="w-9 h-9 rounded-lg bg-[#19B6A4]/15 text-[#15A392] border border-[#19B6A4]/30 flex items-center justify-center mb-3">
+                  <div className="p-6 sm:p-7 rounded-2xl bg-white/95 backdrop-blur-md border border-[#DDE3E8] h-full hover:border-[#19B6A4]/50 hover:shadow-xl transition-all">
+                    <div className="w-10 h-10 rounded-xl bg-[#19B6A4]/15 text-[#15A392] border border-[#19B6A4]/30 flex items-center justify-center mb-4">
                       <GraduationCap className="w-5 h-5" />
                     </div>
-                    <h3 className="font-heading font-bold text-base text-[#101B2B] mb-1">
+                    <h3 className="font-heading font-bold text-lg text-[#101B2B] mb-1.5">
                       {edu.degree}
                     </h3>
-                    <div className="text-xs font-semibold text-[#15A392] mb-2">
+                    <div className="text-xs font-semibold text-[#15A392] mb-3">
                       {edu.institution} • {edu.period}
                     </div>
-                    <p className="text-xs text-[#526273] leading-relaxed">
+                    <p className="text-xs sm:text-sm text-[#526273] leading-relaxed">
                       {edu.details}
                     </p>
                   </div>
