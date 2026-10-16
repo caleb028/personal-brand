@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+        <svg viewBox="0 0 120 120" class="w-full h-full">
+          <defs>
+            <linearGradient id="g7_teal" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#34F5DF" />
+              <stop offset="100%" stop-color="#19B6A4" />
+            </linearGradient>
+            <linearGradient id="g7_slate" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#2D435F" />
+              <stop offset="100%" stop-color="#1D2D40" />
+            </linearGradient>
+            <filter id="f7_glow">
+              <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#19B6A4" flood-opacity="0.3" />
+            </filter>
+          </defs>
+          <g filter="url(#f7_glow)">
+            <!-- Base Tier Layer (Infrastructure) -->
+            <polygon points="60,78 94,60 60,42 26,60" fill="url(#g7_slate)" stroke="#34465A" stroke-width="1.5" />
+            <polygon points="26,60 60,78 60,88 26,70" fill="#152130" />
+            <polygon points="60,78 94,60 94,70 60,88" fill="#101B2B" />
+
+            <!-- Middle Tier Layer (API Engine) -->
+            <polygon points="60,56 86,42 60,28 34,42" fill="url(#g7_teal)" opacity="0.9" />
+            <polygon points="34,42 60,56 60,63 34,49" fill="#11796D" />
+            <polygon points="60,56 86,42 86,49 60,63" fill="#0E6056" />
+
+            <!-- Apex Tier (Client Experience / Gold Core) -->
+            <polygon points="60,34 76,25 60,16 44,25" fill="#EAD4A2" />
+            <polygon points="44,25 60,34 60,39 44,30" fill="#C8A96B" />
+            <polygon points="60,34 76,25 76,30 60,39" fill="#A88B4F" />
+
+            <!-- Modern Vertical Connector Stems -->
+            <line x1="60" y1="39" x2="60" y2="56" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" />
+            <line x1="60" y1="63" x2="60" y2="78" stroke="#2CEFD8" stroke-width="2" stroke-linecap="round" />
+          </g>
+        </svg>
+        </svg>

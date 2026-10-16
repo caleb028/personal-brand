@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+        <svg viewBox="0 0 120 120" class="w-full h-full">
+          <defs>
+            <linearGradient id="g4_grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#34F5DF" />
+              <stop offset="100%" stop-color="#19B6A4" />
+            </linearGradient>
+            <linearGradient id="g4_grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#15A392" />
+              <stop offset="100%" stop-color="#106D62" />
+            </linearGradient>
+            <filter id="f4_shadow">
+              <feDropShadow dx="2" dy="8" stdDeviation="10" flood-color="#19B6A4" flood-opacity="0.3" />
+            </filter>
+          </defs>
+          <g filter="url(#f4_shadow)">
+            <!-- Left Chevron Blade (I) -->
+            <path d="M 24 74 L 46 26 C 48 22 54 22 56 26 L 62 40 L 40 88 C 38 92 32 92 30 88 Z" fill="url(#g4_grad1)" />
+            <!-- Middle Chevron Blade (W-center) -->
+            <path d="M 48 76 L 68 32 C 70 28 76 28 78 32 L 84 46 L 64 90 C 62 94 56 94 54 90 Z" fill="url(#g4_grad2)" />
+            <!-- Right Chevron Blade (W-apex with Gold Launch Tip) -->
+            <path d="M 72 74 L 92 30 C 94 26 100 26 102 30 L 106 38 C 108 42 106 48 102 52 L 86 88 C 84 92 78 92 76 88 Z" fill="url(#g4_grad1)" />
+            <!-- Golden Hypersonic Accent Pip -->
+            <polygon points="98,24 106,20 102,32 94,36" fill="#C8A96B" />
+          </g>
+        </svg>
+        </svg>

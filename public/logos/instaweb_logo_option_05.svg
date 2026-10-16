@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+        <svg viewBox="0 0 120 120" class="w-full h-full">
+          <defs>
+            <linearGradient id="g5_hex" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#34465A" />
+              <stop offset="100%" stop-color="#1D2D40" />
+            </linearGradient>
+            <linearGradient id="g5_core" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#2CEFD8" />
+              <stop offset="100%" stop-color="#19B6A4" />
+            </linearGradient>
+            <filter id="f5_glow">
+              <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#19B6A4" flood-opacity="0.35" />
+            </filter>
+          </defs>
+          <!-- Hexagonal Outer Shield -->
+          <polygon points="60,10 102,34 102,86 60,110 18,86 18,34" 
+                   fill="url(#g5_hex)" stroke="#34465A" stroke-width="3" />
+          <!-- Inner Cyber Accent Ridge -->
+          <polygon points="60,18 94,38 94,82 60,102 26,82 26,38" 
+                   fill="none" stroke="#101B2B" stroke-width="4" />
+          <!-- Floating 'W' Core Monogram with Central 'I' Stem -->
+          <g filter="url(#f5_glow)">
+            <path d="M 38 46 L 48 76 L 60 52 L 72 76 L 82 46" 
+                  fill="none" stroke="url(#g5_core)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+            <!-- Central Golden Data Anchor -->
+            <circle cx="60" cy="38" r="4.5" fill="#C8A96B" stroke="#FFFFFF" stroke-width="1.5" />
+          </g>
+        </svg>
+        </svg>

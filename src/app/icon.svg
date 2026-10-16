@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <defs>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE" />
+      <stop offset="100%" stop-color="#0088FF" />
+    </linearGradient>
+    <linearGradient id="ribbonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00C6FF" />
+      <stop offset="100%" stop-color="#0072FF" />
+    </linearGradient>
+  </defs>
+  <!-- Background Container -->
+  <rect width="32" height="32" rx="7" fill="#040C1A" />
+  
+  <!-- Sweeping Cyan Orbital Ring -->
+  <ellipse cx="16" cy="18.5" rx="13.5" ry="5" stroke="url(#cyanGrad)" stroke-width="1.8" transform="rotate(-18 16 18.5)" opacity="0.95"/>
+  
+  <!-- Glowing Sphere Dot over 'i' -->
+  <circle cx="10" cy="8.5" r="2.3" fill="#00F2FE"/>
+  
+  <!-- Stylized 3D Folded 'iW' Ribbon -->
+  <path d="M9 13.5V22.5" stroke="#00E5FF" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M11 22.5L15.5 14L19.5 22.5L24 14" stroke="url(#ribbonGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

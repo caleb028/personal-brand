@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+        <svg viewBox="0 0 120 120" class="w-full h-full">
+          <defs>
+            <linearGradient id="g3_teal" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#2CEFD8" />
+              <stop offset="100%" stop-color="#19B6A4" />
+            </linearGradient>
+            <radialGradient id="g3_halo" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#19B6A4" stop-opacity="0.8" />
+              <stop offset="100%" stop-color="#19B6A4" stop-opacity="0" />
+            </radialGradient>
+          </defs>
+          <!-- Ambient Network Grid Ring -->
+          <circle cx="60" cy="60" r="46" fill="none" stroke="#34465A" stroke-width="1.5" stroke-dasharray="3 6" opacity="0.7" />
+          <circle cx="60" cy="60" r="30" fill="url(#g3_halo)" opacity="0.25" />
+          
+          <!-- Struts forming 'W' and 'I' -->
+          <g stroke="url(#g3_teal)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="28" y1="42" x2="44" y2="84" />
+            <line x1="44" y1="84" x2="60" y2="48" />
+            <line x1="60" y1="48" x2="76" y2="84" />
+            <line x1="76" y1="84" x2="92" y2="42" />
+            <!-- Vertical 'I' Axis -->
+            <line x1="60" y1="22" x2="60" y2="48" stroke="#C8A96B" stroke-width="4.5" />
+          </g>
+
+          <!-- Constellation Node Spheres -->
+          <circle cx="28" cy="42" r="7" fill="#101B2B" stroke="#19B6A4" stroke-width="3.5" />
+          <circle cx="44" cy="84" r="7" fill="#101B2B" stroke="#19B6A4" stroke-width="3.5" />
+          <circle cx="60" cy="48" r="8" fill="#19B6A4" stroke="#FFFFFF" stroke-width="2.5" />
+          <circle cx="76" cy="84" r="7" fill="#101B2B" stroke="#19B6A4" stroke-width="3.5" />
+          <circle cx="92" cy="42" r="7" fill="#101B2B" stroke="#19B6A4" stroke-width="3.5" />
+          <!-- Apex Golden Beacon Node -->
+          <circle cx="60" cy="22" r="6" fill="#C8A96B" stroke="#FFFFFF" stroke-width="2" />
+        </svg>
+        </svg>

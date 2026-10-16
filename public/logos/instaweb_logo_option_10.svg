@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+        <svg viewBox="0 0 120 120" class="w-full h-full">
+          <defs>
+            <linearGradient id="g10_teal" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#37F6E2" />
+              <stop offset="100%" stop-color="#19B6A4" />
+            </linearGradient>
+            <filter id="f10_glow">
+              <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#19B6A4" flood-opacity="0.35" />
+            </filter>
+          </defs>
+          <g filter="url(#f10_glow)">
+            <!-- Left 'I' Pillar with Top Gold Delimiter -->
+            <rect x="22" y="32" width="10" height="58" rx="3" fill="#FFFFFF" />
+            <circle cx="27" cy="22" r="5" fill="#C8A96B" />
+
+            <!-- Central Multi-Bar 'W' Geometry -->
+            <path d="M 44 32 L 56 90 L 68 50 L 80 90 L 92 32" 
+                  fill="none" stroke="url(#g10_teal)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+            
+            <!-- Code Delimiter Accent Slash (//) -->
+            <line x1="94" y1="24" x2="104" y2="40" stroke="#C8A96B" stroke-width="3" stroke-linecap="round" />
+            <line x1="100" y1="24" x2="110" y2="40" stroke="#19B6A4" stroke-width="3" stroke-linecap="round" />
+          </g>
+        </svg>
+        </svg>

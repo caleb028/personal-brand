@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-primary: #101B2B;
+  --brand-secondary: #1D2D40;
+  --brand-accent: #19B6A4;
+  --brand-accent-hover: #15A392;
+  --brand-premium: #C8A96B;
+
+  --background: #F7F6F2;
+  --foreground: #172331;
+
+  --card: #FFFFFF;
+  --card-foreground: #172331;
+
+  --muted: #EEF1F3;
+  --muted-foreground: #526273;
+
+  --border: #DDE3E8;
+  --ring: #19B6A4;
+
+  --midnight-navy: #101B2B;
+  --deep-slate: #1D2D40;
+  --refined-ivory: #F7F6F2;
+  --electric-teal: #19B6A4;
+  --muted-gold: #C8A96B;
+  --cool-gray: #AAB5C2;
+  --dark-border: #34465A;
+  --light-border: #DDE3E8;
+
+  --bg-primary: #101B2B;
+  --text-primary: #FFFFFF;
+  --text-muted: #AAB5C2;
+  --border-color: #34465A;
+  --accent-emerald: #19B6A4;
+}
+
+.dark {
+  --background: #101B2B;
+  --foreground: #F7F6F2;
+
+  --card: #1D2D40;
+  --card-foreground: #F7F6F2;
+
+  --muted: #25364A;
+  --muted-foreground: #AAB5C2;
+
+  --border: #34465A;
+  --ring: #19B6A4;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+body {
+  background-color: var(--midnight-navy);
+  color: var(--text-primary);
+  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  overflow-x: hidden;
+  max-width: 100vw;
+  width: 100%;
+}
+
+/* Ensure all anchor target IDs have proper offset clearance below sticky header */
+[id] {
+  scroll-margin-top: 5.5rem;
+}
+
+/* Accessibility: respect user preference for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #101B2B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1D2D40;
+  border: 1px solid #34465A;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #34465A;
+}
+
+/* Selection color */
+::selection {
+  background-color: #19B6A4;
+  color: #101B2B;
+}
+
+@keyframes networkDrift {
+  0% {
+    transform: scale(1.04) translate(0%, 0%);
+  }
+  50% {
+    transform: scale(1.08) translate(-1.5%, 1%);
+  }
+  100% {
+    transform: scale(1.04) translate(0%, 0%);
+  }
+}
+
+.animate-network-drift {
+  animation: networkDrift 24s ease-in-out infinite;
+}
+
+/* Developer Workspace Slow Motion Pan & Zoom */
+@keyframes workspaceSlowMotion {
+  0% {
+    transform: scale(1.04) translate(0%, 0%);
+  }
+  33% {
+    transform: scale(1.09) translate(-1.2%, -0.8%);
+  }
+  66% {
+    transform: scale(1.07) translate(1%, -0.6%);
+  }
+  100% {
+    transform: scale(1.04) translate(0%, 0%);
+  }
+}
+
+.animate-workspace-slowmo {
+  animation: workspaceSlowMotion 36s ease-in-out infinite alternate;
+}
+
+@keyframes holographicGlowPulse {
+  0%, 100% {
+    opacity: 0.35;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.65;
+    transform: scale(1.08);
+  }
+}
+
+.animate-hologram-pulse {
+  animation: holographicGlowPulse 8s ease-in-out infinite;
+}
+
+

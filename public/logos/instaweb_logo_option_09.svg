@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+        <svg viewBox="0 0 120 120" class="w-full h-full">
+          <defs>
+            <linearGradient id="g9_teal" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#19B6A4" />
+              <stop offset="50%" stop-color="#3EF7E3" />
+              <stop offset="100%" stop-color="#19B6A4" />
+            </linearGradient>
+            <filter id="f9_glow">
+              <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#19B6A4" flood-opacity="0.3" />
+            </filter>
+          </defs>
+          <g filter="url(#f9_glow)">
+            <!-- Outer Crest Wave Arc -->
+            <path d="M 22 52 C 34 32 86 32 98 52" fill="none" stroke="#34465A" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 6" />
+            <!-- Mid 'W' Wave Arc -->
+            <path d="M 28 64 C 36 78 46 78 54 62 C 62 46 72 46 80 62 C 86 74 94 72 96 64" 
+                  fill="none" stroke="url(#g9_teal)" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" />
+            <!-- Lower Support Pulse -->
+            <path d="M 40 82 C 48 94 72 94 80 82" fill="none" stroke="#C8A96B" stroke-width="4" stroke-linecap="round" />
+            <!-- Central Vertical 'I' Beacon Pillar -->
+            <line x1="60" y1="20" x2="60" y2="52" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" />
+            <circle cx="60" cy="18" r="4.5" fill="#C8A96B" />
+          </g>
+        </svg>
+        </svg>

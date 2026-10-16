@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+        <svg viewBox="0 0 120 120" class="w-full h-full">
+          <defs>
+            <linearGradient id="g6_teal" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#19B6A4" stop-opacity="0.2" />
+              <stop offset="70%" stop-color="#2CEFD8" />
+              <stop offset="100%" stop-color="#FFFFFF" />
+            </linearGradient>
+            <linearGradient id="g6_gold" x1="100%" y1="100%" x2="0%" y2="0%">
+              <stop offset="0%" stop-color="#C8A96B" stop-opacity="0.2" />
+              <stop offset="80%" stop-color="#ECC685" />
+              <stop offset="100%" stop-color="#FFFFFF" />
+            </linearGradient>
+          </defs>
+          <!-- Dual Orbital Trajectories -->
+          <g transform="rotate(-18 60 60)">
+            <ellipse cx="60" cy="60" rx="48" ry="22" fill="none" stroke="url(#g6_teal)" stroke-width="4" stroke-linecap="round" stroke-dasharray="160 50" />
+            <ellipse cx="60" cy="60" rx="48" ry="22" fill="none" stroke="url(#g6_gold)" stroke-width="3" stroke-linecap="round" stroke-dasharray="140 70" transform="rotate(72 60 60)" />
+          </g>
+          <!-- Central Optical 'W' Wave -->
+          <path d="M 40 68 Q 50 82 55 64 Q 60 48 65 64 Q 70 82 80 68" fill="none" stroke="#2CEFD8" stroke-width="6" stroke-linecap="round" />
+          <!-- Central 'I' Beacon -->
+          <line x1="60" y1="28" x2="60" y2="48" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" />
+          <circle cx="60" cy="22" r="4.5" fill="#C8A96B" />
+        </svg>
+        </svg>
